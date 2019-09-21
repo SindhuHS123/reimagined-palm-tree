@@ -1,0 +1,37 @@
+B06:
+Procedure for B06 question;
+This is the HTML program to create user name and password 
+
+<html>
+<head>
+<title> hello world </title>
+</head>
+<body>
+<label1 id=one label">ENTER USERNAME
+<input type+"text"name="user name" placeholder="user name">
+</label>
+<label id=onelabel">ENTER PASSWORD
+<input type="password" name="password">
+</label>
+</head>
+</html>
+
+
+We are giving the user name as 1KS17CS078 and password is 1KS17CS087.
+To convert this into Base64 encoding first we should write a ascii values for the character[1KS17CS085], then write the ascii values in the binary form taking 8 bits at a time.
+Then this ASCII values should be written in binary form taking 6 bits at a time.
+[it should be in the form of 2^6=4 converted into indivisual values from left to right]
+When the last input group contains only two octets(00),all 1bits will be captured in the first three base64 digits (18bits),the two last significant bits of last content bearing 
+bits block will turn out to be zero and discarded on decoding,and 1=1 should be added to this padding.
+And the same thing is done for the password character. 
+
+         1KS17CS078
+ASCII;   49 75 83 49 55 7 83 48 55 56
+BINARY;  001100 010100 101101 010011 001100 010011 011101 000011 010100 110011 000000 110111 001110 00
+           M      U      t      T      M       T     d       D     U      Z      A       3      0
+hence its: MUtTMTdDUZA30
+
+         1KS17CS087
+ASCII;   49 75 83 49 55 7 83 48 56 55
+BINARY;  001100 010100 101101 010011 001100 010011 011101 000011 010100 110011 000000 111000 001101 110000 00
+           

@@ -1,0 +1,65 @@
+B13:
+I have taken a embedded link as www.krishnagudi.com,then i have analysed all the headers in that site and headers are;
+
+Request URL: http://www.krishnagudi.com/
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 166.62.28.119:80
+Referrer Policy: no-referrer-when-downgrade
+Connection: Upgrade, Keep-Alive
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 21 Sep 2019 04:15:48 GMT
+Keep-Alive: timeout=5
+Link: <http://www.krishnagudi.com/wp-json/>; rel="https://api.w.org/", <http://www.krishnagudi.com/>; rel=shortlink
+Server: Apache
+Transfer-Encoding: chunked
+Upgrade: h2,h2c
+Vary: Accept-Encoding,User-Agent
+X-Powered-By: PHP/5.5.38
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: __tawkuuid=e::krishnagudi.com::40PvHdsqCO1r/FoeAlvlHjTyCRE7BQolg4IGi3Ds9ogTcsaxHkeruS6NbckICSXI::2; csbwfs_show_hide_status=active; wpfront-notification-bar-landingpage=1; TawkConnectionTime=0
+Host: www.krishnagudi.com
+Pragma: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+
+
+
+
+Then i have accessed another link from previous website and analysed their headers,below the headers of another embedded link;
+
+Request URL: http://www.krishnagudi.com/
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 166.62.28.119:80
+Referrer Policy: no-referrer-when-downgrade
+Connection: Upgrade, Keep-Alive
+Content-Length: 63794
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 21 Sep 2019 04:23:11 GMT
+Keep-Alive: timeout=5
+Link: <http://www.krishnagudi.com/wp-json/>; rel="https://api.w.org/", <http://www.krishnagudi.com/>; rel=shortlink
+Server: Apache
+Upgrade: h2,h2c
+Vary: Accept-Encoding,User-Agent
+X-Powered-By: PHP/5.5.38
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: __tawkuuid=e::krishnagudi.com::40PvHdsqCO1r/FoeAlvlHjTyCRE7BQolg4IGi3Ds9ogTcsaxHkeruS6NbckICSXI::2; csbwfs_show_hide_status=active; wpfront-notification-bar-landingpage=1; TawkConnectionTime=0
+Host: www.krishnagudi.com
+Pragma: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+
+
+
+               The difference between the headers of two embedded websites are;
+there's no content length in the first accessed website.
+ 
